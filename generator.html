@@ -159,6 +159,13 @@ Treść komunikatu</textarea
   <script>
     const body = document.querySelector("body");
     const sizes = {
+
+      "Instagram - 1 zdjęcie": {
+        thumbnail_size: [270, 480],
+        overflow_size: [733, 723],
+      },
+
+
       "Twitter - 1 zdjęcie": {
         thumbnail_size: [512, 313],
         overflow_size: [1024, 768],
@@ -175,6 +182,8 @@ Treść komunikatu</textarea
         thumbnail_size: [270, 552],
         overflow_size: [733, 723],
       },
+
+      
     };
 
     for (const value of Object.keys(sizes)) {
